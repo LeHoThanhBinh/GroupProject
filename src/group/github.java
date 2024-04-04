@@ -30,6 +30,9 @@ public class github {
 	        case '/':
 	            if (bNumber == 0) {
 	                System.out.println("So bi chia phai khac 0.");
+	                System.out.println("Nhap lai so thu hai: ");
+	    	        bNumber = scanner.nextInt();
+	    	        System.out.println(aNumber + " / " + bNumber + " = " + (float) aNumber / bNumber);
 	            } else {
 	                
 	                System.out.println(aNumber + " / " + bNumber + " = " + (float) aNumber / bNumber);
